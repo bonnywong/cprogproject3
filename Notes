@@ -1,0 +1,107 @@
+Starting Character:
+	100/100 HP
+	20 Damage per Attack
+	Item Slots:
+		Shield : Nothing
+		Ring : Nothing
+		Armor : Nothing
+	Area : The Alliance Headquarters
+Goal:
+	Defeat the evil wizard Arteezy before her ruins another squadron of heroes.
+	(Actual ending : Peter Dager the Manipulator was behind the scenes all along, twisting Arteezys mind to suit his own goals)
+Area:
+	The Alliance Headquarters:
+		Loda the Righteous - Questgiver:
+			10000 HP
+			1000 Damage per Attack
+			Quest 1 : Vanguard
+				You need Stout Shield, Ring of Health and Vitality Booster
+				Stout Shield : Bought at Dendi the Resilient
+				Ring of Health : Granted by completing the "Where is Black?" quest
+				Vitality Booster : Given after slaying Old Man Fear
+				Reward : Vanguard (80% Chance to block 60 Damage, +200 HP, +5 Health per Turn)
+			Quest 2 : End of Arteezy
+				Defeat Arteezy
+			Talk -> Gives quest
+		East : Na'Vi Headquarters
+		West : Stronghold of Evil Geniouses
+		South : Wild Wastes
+	Na'Vi Village:
+		Dendi the Resilient - Armorsmith:
+			1000 HP
+			100 Damage per Attack
+			If Defeated - Drops all Items
+			Stout Shield : 200 Gold
+				66% Chance to block 20 Damage
+			Ring of Protection : 175 Gold
+				+2 Armor
+			Chain Mail : 500 Gold
+				+5 Armor
+			Talk -> Hello, I sell Items! >Gives list of items<
+		West : The Alliance Headquarters
+		South : Secret Lair
+	Secret Lair:
+		Puppey the Fallen - Questgiver:
+			100 HP
+			20 Damage per Attack
+			Drops Ring of Health, causes Black the Master Farmer and Dendi the Resilient to turn into Enemies
+			Quest : Where is Black?
+				Find Black the Master Farmer in the Wild Wastes
+				Reward : Ring of Health (+5 Health per Turn)
+			Talk -> Gives quest
+		North : Na'Vi Village
+		West : Wild Wastes
+	Wild Wastes:
+		Every Day you stay in Wild Wastes, you encounter a random Actor:
+			60% (55%) Dire Creep:
+				40 HP
+				10 Damage per Attack
+				Grants 40 Gold on Kill
+				Talk -> *Screeches*, attacks you
+			40% (35%) Vengeful Spirit:
+				60 HP
+				40 Damage per Attack
+				First Action (Magic Missile) : Deals 100 Damage to you and causes you to skip your next turn
+				Grants 400 Gold on Kill
+				Talk -> "My vengence soars!", attacks you
+			0% (10%) Black the Master Farmer:
+				Friendly encounter
+				Talk -> (Tell Black about Puppey) Black moves to Secret Lair
+		North : Alliance Headquarters
+		East : Secret Lair
+	Stronghold of Evil Geniouses:
+		Old Man Fear:
+			200 HP
+			50 Damage per Attack
+			Drops Vitality Booster
+			Talk -> "I will not let you pass into the Chamber of Evil- I mean Chamber of Excellence!"
+		West : Chamber of Evil
+			Cannot travel here unless Old Man Fear is defeated and Vanguard is acquired
+		East : The Alliance Headquarters
+	Chamber of Evil:
+		Arteezy - Evil Wizard
+			300 HP
+			100 Damage per Attack
+			Swap HP : Switches HP between Arteezy and you, used after 2 Attacks
+			Talk -> "I'm not the problem, the other squadrons are!"
+		East : Stronghold of Evil
+
+Mechanics:
+	Armor : Blocks X Damage when attacked
+	Moving to The Alliance Headquarters fully restores your Characters Health
+	Dropping an Item that grants more or equal to the amount of HP you have drops your HP to 1
+
+Final Fight:
+	Do Nothing
+	(Arteezy Hits you)
+	Do Nothing
+	(Arteezy Hits you)
+	Drop Vanguard
+	(Arteezy swaps HP)
+	>Arteezy should have 1-100 HP by now
+	Attack or Pickup Vanguard
+		On Pickup Vanguard (PEEDURR THATS CHEATING PEEDURR)
+
+Easter Eggs (besides all the fucking references):
+	Talk Self (or your own Name)
+		Result : "Maybe I should continue my quest."
