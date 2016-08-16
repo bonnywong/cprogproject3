@@ -1,0 +1,31 @@
+{"environments": [
+	{
+		"name": "The Alliance Headquarters", 
+		"description": "The HQ to the legendary Swedish DOTA2 team, Alliance."
+	},
+	
+	{
+		"name": "Na'Vi Village", 
+		"description":"Replace this text."
+	}, 
+	
+	{
+		"name": "Secret Lair", 
+		"description": "Replace this text."
+	},
+	
+	{
+		"name": "Wild Wastes", 
+		"description": "Replace this text."
+	},
+	
+	{
+		"name": "Stronghold of Evil Geniuses", 
+		"description": "Replace this text."
+	},
+	
+	{
+		"name": "Chamber of Evil", 
+		"description": "Replace this text."
+	}
+]}
