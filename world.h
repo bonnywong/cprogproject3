@@ -11,6 +11,8 @@ class world {
 public:
     world();
     ~world();
+
+    void load_resources();
     void introduction();
     void player_creation();
     void parse_command(std::string);
