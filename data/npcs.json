@@ -1,0 +1,31 @@
+{"npcs": [
+	{
+		"name": "Loda the Righteous", 
+		"location": "The Alliance Headquarters",
+		"description": "Replace this text."
+	},
+	
+	{
+		"name": "Dendi the Resilient", 
+		"location": "Na'Vi Village",
+		"description": "Replace this text."
+	}, 
+	
+	{
+		"name": "Puppey the Fallen", 
+		"location": "Secret Lair",
+		"description": "Replace this text."
+	},
+	
+	{
+		"name": "Old Man Fear", 
+		"location": "Stronghold of Evil Geniuses",
+		"description": "Replace this text."
+	},
+	
+	{
+		"name": "Arteezy - Evil Wizard", 
+		"location": "Stronghold of Evil Geniuses",
+		"description": "Replace this text."
+	}
+]}
