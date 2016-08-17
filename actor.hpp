@@ -5,6 +5,7 @@
 #define ACTOR
 
 #include "item.hpp"
+#include "environment.hpp"
 
 using namespace std;
 
@@ -30,8 +31,10 @@ class Actor{
 		void change_damage(int dmg);
 		
 	protected:
+		vector<Item> player_items;
+		Environment current_location;
 		string name;
-	    string description;
+		string description;
 		int hp;
 		int max_hp;
 		int damage;
