@@ -10,7 +10,8 @@ using namespace std;
 
 class Actor{
 	public:
-		explicit Actor(string n, int h, int dmg);
+		Actor();
+		explicit Actor(string n, string d, int h, int dmg);
 	
 		void type();
 		
@@ -30,6 +31,7 @@ class Actor{
 		
 	protected:
 		string name;
+	    string description;
 		int hp;
 		int max_hp;
 		int damage;
