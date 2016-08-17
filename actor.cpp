@@ -5,8 +5,9 @@
 
 using namespace std;
 
-Actor::Actor(string n, int h, int dmg){
+Actor::Actor(string n, string d, int h, int dmg){
 	name = n;
+	description = d;
 	hp = max_hp = h;
 	damage = dmg;
 	items = ItemSlots();
