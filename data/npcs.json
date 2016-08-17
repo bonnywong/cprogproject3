@@ -1,31 +1,51 @@
 {"npcs": [
 	{
-		"name": "Loda the Righteous", 
+	  	"id": 1,
+		"name": "Loda the Righteous",
+	    "nick": "Loda",
 		"location": "The Alliance Headquarters",
-		"description": "Replace this text."
+		"description": "Replace this text.",
+	    "health": 1000,
+	    "damage": 1000
 	},
 	
 	{
-		"name": "Dendi the Resilient", 
+	  	"id": 2,
+		"name": "Dendi the Resilient",
+	    "nick": "Dendi",
 		"location": "Na'Vi Village",
-		"description": "Replace this text."
+		"description": "Replace this text.",
+	    "health": 1000,
+	    "damage": 100
 	}, 
 	
 	{
-		"name": "Puppey the Fallen", 
+	    "id": 3,
+		"name": "Puppey the Fallen",
+	    "nick": "Puppey",
 		"location": "Secret Lair",
-		"description": "Replace this text."
+		"description": "Replace this text.",
+	    "health": 100,
+	    "damage": 20
 	},
 	
 	{
-		"name": "Old Man Fear", 
+	    "id": 4,
+		"name": "Old Man Fear",
+	    "nick": "Fear",
 		"location": "Stronghold of Evil Geniuses",
-		"description": "Replace this text."
+		"description": "Replace this text.",
+	    "health": 200,
+	    "damage": 50
 	},
 	
 	{
-		"name": "Arteezy - Evil Wizard", 
+	    "id": 5,
+		"name": "Arteezy - Evil Wizard",
+	    "nick": "BabyRage",
 		"location": "Stronghold of Evil Geniuses",
-		"description": "Replace this text."
+		"description": "Replace this text.",
+	    "health": 300,
+	    "damage": 100
 	}
 ]}
